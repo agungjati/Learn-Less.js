@@ -1,0 +1,36 @@
+@-webkit-keyframes animbox {
+  0% {
+    background: #85486d;
+  }
+  25% {
+    background: #9F6287;
+  }
+  50% {
+    background: #B87BA0;
+  }
+  100% {
+    background: #B87BA0;
+  }
+}
+@keyframes animbox {
+  0% {
+    background: #85486d;
+  }
+  25% {
+    background: #9F6287;
+  }
+  50% {
+    background: #B87BA0;
+  }
+  100% {
+    background: #B87BA0;
+  }
+}
+.kotak {
+  color: #fff;
+  padding: 10px;
+  animation-name: animbox;
+  animation-duration: 1000ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}

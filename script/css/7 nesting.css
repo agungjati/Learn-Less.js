@@ -1,0 +1,17 @@
+.kotak {
+  color: #666;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.kotak:hover {
+  background-color: #000;
+  color: #fff;
+}
+.kotak p {
+  color: #58af58;
+}
+.foo,
+.bar {
+  color: red;
+}

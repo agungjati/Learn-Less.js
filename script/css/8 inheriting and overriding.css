@@ -1,0 +1,16 @@
+.kotak {
+  padding: 10px;
+  background-color: #ccc;
+  color: #666;
+}
+.border,
+.kotak-1,
+.kotak-2 {
+  border: 1px solid;
+}
+.kotak-1 {
+  background-color: #ada;
+}
+.kotak-2 {
+  background-color: #eff;
+}

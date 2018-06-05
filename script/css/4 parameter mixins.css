@@ -1,0 +1,12 @@
+.kotak {
+  color: #222;
+  background-color: #ffffff;
+  border: 10px solid #ccc;
+  padding: 10px;
+}
+.kotak-1 {
+  color: #999;
+  background-color: #ffffff;
+  border: 5px solid #ccc;
+  padding: 10px;
+}

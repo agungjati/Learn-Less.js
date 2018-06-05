@@ -1,0 +1,16 @@
+.kotak {
+    color: #666;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    &:hover {
+        background-color: #000;
+        color: #fff;
+    }
+    p {
+        color: rgb(88, 175, 88);
+    }
+}
+
+.foo { color: red; }
+.bar { &:extend(.foo); }

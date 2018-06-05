@@ -1,0 +1,26 @@
+.keyframes (@name, @color0, @color25, @color50, @color100) 
+{
+    @-webkit-keyframes @name {
+        0% {background: @color0}
+        25% {background: @color25;}
+        50% {background: @color50;}
+        100% {background: @color100;}
+    }
+    @keyframes @name {
+        0% {background: @color0}
+        25% {background: @color25;}
+        50% {background: @color50;}
+        100% {background: @color100;}
+    }
+}
+
+.keyframes(animbox, #85486d, #9F6287, #B87BA0, #B87BA0);
+
+.kotak {
+    color: #fff;
+    padding: 10px;
+    animation-name: animbox;
+    animation-duration: 1000ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}

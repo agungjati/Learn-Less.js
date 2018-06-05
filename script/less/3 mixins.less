@@ -1,0 +1,20 @@
+.bg-light () {
+    color: #666;
+    background-color: #fff;
+}
+.border () {
+    border: 1px solid #ccc;
+}
+.kotak {
+    .bg-light();
+    .border();
+    padding: 10px;
+}
+
+.vendorize(@property, @value) {
+    -webkit-@{property}: @value;
+    -moz-@{property}: @value;
+    -ms-@{property}: @value;
+    -o-@{property}: @value;
+    @{property}: @value;
+    }
